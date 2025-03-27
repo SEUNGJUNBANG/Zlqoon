@@ -14,7 +14,7 @@
     <script>
         window.onload = () => {
             var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 2.5,
+                slidesPerView: 3.5,
                 spaceBetween: 30,
                 navigation: {
                     nextEl: ".swiper-button-next",
@@ -56,7 +56,7 @@
             let windowHeight = window.innerHeight;
             let topBtn = document.querySelector('.top_btn');
 
-            let section01 = document.querySelector('.scetion-01')
+            let section01 = document.querySelector('.section-01')
             let section01Top = section01.offsetTop;
 
 
@@ -69,7 +69,7 @@
                 if (scrollTop > 0) {
                     headerLogo.src = '즐거운/img/logo.svg';
                     header.classList.add('active');
-                    /* header.inner.backgroundColor = ('rgba(0, 0, 0, 0)'); */
+                   // header.inner.backgroundColor = 'rgba()';
                 } else {
                     headerLogo.src = '즐거운/img/logo_wh.svg';
                     header.classList.remove('active');
